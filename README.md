@@ -1,2 +1,21 @@
-# Trabalho-PSB-2018.2
-Trabalho de Programação de Software Básico 2018.2 - MATA49
+# Trabalho de Programação de Software Básico (MATA49)
+`Profº Mestre Leandro Andrade - Semestre 2018.2`
+
+`leandrojsa@ufba.br`
+
+## **Informações Gerais**
+
+• O trabalho deve ser feito em dupla
+
+• A data de entrega será no dia **21 de novembro de 2018** em sala de aula (16:40) e 
+cada dupla terá cerca de 5 minutos para explicar sua solução e entregar o código fonte
+
+        ◦ É indispensável que cada aluno apresente conhecimento sobre o código desenvolvido, pois
+          isso também será considerado como critério de avaliação
+
+• A identificação de plágio resultará na anulação da nota da avaliação de todos os envolvidos
+
+• **As entradas e saídas devem seguir rigorosamente a especificação.**
+Então leia atentamente a especificação.
+
+• O programa será avaliado através de 10 testes, onde cada um valerá um ponto.
