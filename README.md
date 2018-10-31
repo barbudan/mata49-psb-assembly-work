@@ -3,6 +3,8 @@
 
 `leandrojsa@ufba.br`
 
+Especificação: https://www.moodle.ufba.br/pluginfile.php/636293/mod_resource/content/1/trabalho_pratico_20182.pdf
+
 ## **Informações Gerais**
 
 • O trabalho deve ser feito em dupla
