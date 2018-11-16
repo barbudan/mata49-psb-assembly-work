@@ -40,7 +40,7 @@ int main(){
 	
 	custo[0]=0; // O custo do primeiro pilar é sempre zero.
 	
-	for(int k=0;k<tamanho_total;k++)
+	for(int k=0;k<pilares;k++)
 	{
 		for(i=0;i<tamanho_total;i+=3)
 		{
