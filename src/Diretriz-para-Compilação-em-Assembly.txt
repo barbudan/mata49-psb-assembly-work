@@ -1,0 +1,13 @@
+Sugestão do nome do arquivo: BuscaEmAssembly
+
+    1. Compilação
+        Baixar pacote com a biblioteca asm_io(linux): https://www.moodle.ufba.br/mod/resource/view.php?id=269207
+        Colocar o código dentro da pasta do pacote
+        No código, modificar a global para compilar no linux:
+            Usar asm_main no linux ao invés de _asm_main (para Windows)
+        No terminal:
+            nasm -f elf32 busca.asm
+            gcc -m32 -o BuscaEmAssembly busca.o driver.c asm_io.o
+
+    2. Execução
+        ./BuscaEmAssembly

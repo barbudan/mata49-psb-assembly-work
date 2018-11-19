@@ -1,0 +1,7 @@
+Sugestão do nome do arquivo: BuscaEmC++
+
+    1. Compilação
+        g++ main.cpp -o BuscaEmC++
+
+    2. Execução
+        ./BuscaEmC++

@@ -27,9 +27,9 @@ int main(){
 
 	for(i=0;i<tamanho_total;i++)
 		cin >> caminho[i];
-	
+
 	for(i=0;i<pilares;i++)
-		custo[i]=3000000; // Valor qualquer acima do limite (50*50*100) 
+		custo[i]=3000000; // Valor qualquer acima do limite (50*50*100)
 
 	// DEBUG
 	if(DEBUG)
@@ -37,22 +37,41 @@ int main(){
 		for(i=0;i<tamanho_total;i+=3)
 			cout << caminho[i] << " " << caminho[i+1] << " " << caminho[i+2] << endl;
 	}
-	
+
 	custo[0]=0; // O custo do primeiro pilar é sempre zero.
-	
+
 	for(int k=0;k<pilares;k++)
 	{
 		for(i=0;i<tamanho_total;i+=3)
 		{
+
+
 			if(caminho[i]==k)
 			{
+				// DEBUG
+				if(DEBUG){
+					for(int j = 0; j < pilares; j++)
+						cout << custo[j] << " " << endl;
+				}
+
 				if(custo[caminho[i]] + caminho[i+2] < custo[caminho[i+1]])
 					custo[caminho[i+1]] = custo[caminho[i]] + caminho[i+2];
+
+				// (Debug)
+				if(DEBUG)
+					cout << endl;
 			}
 		}
 	}
 
-	cout << custo[pilares-1] << endl;		
+	// DEBUG
+	if(DEBUG){
+		for(int j = 0; j < pilares; j++)
+			cout << custo[j] << " " << endl;
+		cout << endl;
+	}
+
+	cout << custo[pilares-1] << endl;
 
 	return 0;
 }
